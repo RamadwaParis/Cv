@@ -1,0 +1,77 @@
+/* Reset default spacing and box sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page background and general text */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #e6f2ff; /* Light blue background */
+  color: #333;
+  padding: 20px;
+}
+
+/* Centered container with white card style */
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: #fff; /* White content box */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Main CV title */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #003366; /* Dark blue */
+}
+
+/* Section headers */
+h2 {
+  color: #0059b3; /* Medium blue */
+  margin-top: 20px;
+  font-size: 20px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+/* Subsection headers */
+h3 {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #004080;
+}
+
+/* List styles */
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+/* Individual list item spacing */
+li {
+  margin-bottom: 5px;
+}
+
+/* Paragraph spacing */
+p {
+  margin: 10px 0;
+}
+
+/* Anchor tag styling */
+a {
+  color: #004080;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
